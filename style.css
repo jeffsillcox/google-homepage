@@ -1,0 +1,22 @@
+/* reset */
+html {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    display: inline;
+}
+
+#cube {
+    display: inline;
+}
+
+#logo {
+    padding-top: 140px;
+    text-align: center;
+}
