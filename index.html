@@ -8,35 +8,38 @@
     <body>
         <nav>
             <ul>
-                <li>About</li>
-                <li>Store</li>
-                <li>Gmail</li>
-                <li>Images</li>
-                <li><div id="cube"></div></li>
-                <li>Sign in</li>
+                <li class="left"><a href="#">About</a></li>
+                <li class="left"><a href="#">Store</a></li>
+                <li class="right" id="signin"><a href="#">Sign in</a></li>
+                <li class="right"><a href="#">Images</a></li>
+                <li class="right"><a href="#">Gmail</a></li>
             </ul>
         </nav>
         <main>
             <div id="logo"><img src= "https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"></div>
-            <form>
-                <input type="search" name="search text">
-                <!-- https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png -->
-                <input type="submit" value="Google Search">
-                <input type="submit" value="I'm Feeling Lucky">
-            </form>
-            <div>
-                <img src="https://www.google.com/images/hpp/icon-privacy-shield-rgb-120dp.png">
-                <p>Learn how we help keep you safe online. <a href="#">Google Safety Center</a></p>
+            <div class="search_form">
+                <form>                
+                    <input class="box" type="text-area" name="search text">
+                    <div class="button">
+                        <input type="submit" value="Google Search">
+                        <input type="submit" value="I'm Feeling Lucky">
+                    </div>
+                </form>
+            </div>    
+            <div class="new">
+                <p><span class="red">New!</span> Get help at a glance. Introducing <a href="#">Google Home Hub</a></p>
             </div>
         </main>
         <footer>
-            <ul>
-                <li>Advertising</li>
-                <li>Business</li>
-                <li>Privacy</li>
-                <li>Terms</li>
-                <li>Settings</li>
-            </ul>
+                <ul class="footl">
+                    <li class="left"><a href="#">Advertising</a></li>
+                    <li class="left"><a href="#">Business</a></li>
+                </ul>
+                <ul class="footr"></ul>
+                    <li class="right"><a href="#">Settings</a></li>
+                    <li class="right"><a href="#">Terms</a></li>
+                    <li class="right"><a href="#">Privacy</a></li>
+                </ul>
         </footer>
     </body>
 </html>
